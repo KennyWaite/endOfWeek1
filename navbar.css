@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+.nav-bar-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    height: 60px;
+    margin: 0px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: navy;
+}
+
+a:hover {
+    color: darkgrey;
+}
